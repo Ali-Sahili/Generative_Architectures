@@ -1,0 +1,19 @@
+Required python packages include:
+
+    OpenCV
+    numpy
+    skimage
+
+Methods
+
+The script includes three different methods for calculating image registration / alignment transformation information.
+
+    FFT phase correlation
+    Enhanced Correlation Coefficient (ECC) maximization
+    Feature based registration  ORB SIFT SURF RANSAC
+
+RANSAC is an iterative algorithm for the robust estimation of parameters from a subset of inliers from the complete data set. 
+
+In this list, phase correlation is the simplest method and only calculates the translation (shift) of one image compared to the other. In contrast, the ECC methodology can compensate for both shifts, shifts + rotations (euclidean), shifts + rotation + shear (affine), or homographic (3D) transformations of one image to the next. The feature based methodology uses a homographic representation but uses features within the image rather than a correlation based method on the whole image to search for these values.
+
+Depending on the question at hand selecting the methodolgy which most closely matches the deformation between two images will yield the best (and fastest) results. For example, in a past project images were offset along the x axis only. In this case, a phase correlation method was preferred.
