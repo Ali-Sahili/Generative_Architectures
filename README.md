@@ -1,8 +1,8 @@
 ![Python 3.7](https://img.shields.io/badge/python-3.7-b0071e.svg?style=plastic)
 ![PyTorch 1.8](https://img.shields.io/badge/pytorch-1.8-%239e008e.svg?style=plastic)
 ![cuDNN 7.3.1](https://img.shields.io/badge/cuda-10.0-2545e6.svg?style=plastic)
-<!-- ![Numpy](https://img.shields.io/static/v1?style=plastic&message=NumPy&color=013243&logo=NumPy&logoColor=FFFFFF&label=) -->
 ![OpenCV 4.1](https://img.shields.io/static/v1?style=plastic&message=OpenCV&color=5C3EE8&logo=OpenCV&logoColor=FFFFFF&label=)
+<!-- ![Numpy](https://img.shields.io/static/v1?style=plastic&message=NumPy&color=013243&logo=NumPy&logoColor=FFFFFF&label=) -->
 
 
 # Generative_Architectures
